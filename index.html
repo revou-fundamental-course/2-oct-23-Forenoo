@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Konversi Suhu</title>
+  </head>
+  <body>
+    <header>
+      <h1>Alat Konversi Suhu</h1>
+      <p>Celcius -> Farenheit</p>
+    </header>
+    <section>
+      <div class="output-container">
+        <h2>Hasil Konversi</h2>
+        <span id="farenheitResult" class="farenheit-output">0 °F</span>
+        <div class="line"></div>
+      </div>
+      <div class="input-container">
+        <h2>Celcius (°C)</h2>
+        <input type="number" placeholder="0" id="celcius" />
+        <div class="button-container">
+          <button id="convertButton">Konversi</button>
+          <button id="resetButton">Reset</button>
+        </div>
+      </div>
+      <div class="explanation-container">
+        <h2>Cara Konversi Suhu</h2>
+        <div class="result-box">
+          <span id="explainResult"></span>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
